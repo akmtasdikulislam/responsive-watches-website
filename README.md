@@ -13,6 +13,7 @@ This is a Responsive Watches Website Design Using HTML CSS & JavaScript
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgement](#acknowledgement)
 
 ## Overview
 
@@ -35,7 +36,7 @@ This is a Responsive Watches Website Design Using HTML CSS & JavaScript
 ### Links
 
 - [Solution URL](https://github.com/akmtasdikulislam/responsive-watches-website)
-- [Live Site URL]()
+- [Live Site URL](https://akmtasdikulislam.github.io/responsive-watches-website/)
 
 ## My process
 
@@ -53,3 +54,5 @@ This is a Responsive Watches Website Design Using HTML CSS & JavaScript
 
 - Frontend Mentor - [@akmtasdikulislam](https://www.frontendmentor.io/profile/akmtasdikulislam)
 - Twitter - [@Akm_Tasdikul](https://www.twitter.com/Akm_Tasdikul)
+
+## Acknowledgement
