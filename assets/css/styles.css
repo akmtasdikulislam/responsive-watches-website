@@ -313,11 +313,131 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
+@media screen and (max-width: 320px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .home__info {
+    flex-direction: column;
+    row-gap       : 2rem;
+    text-align    : center;
+  }
+
+  .home__button-link {
+    justify-self: center;
+  }
+}
+
 
 /* For medium devices */
+
+@media screen and (min-width:576px) {
+  .home__container {
+    grid-template-columns: 400px;
+    justify-content      : center;
+  }
+}
 
 
 /* For large devices */
 
+@media screen and (min-width:1023px) {
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+  }
+
+  .nav__close,
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__menu {
+    align-items: center;
+    column-gap : 4rem;
+    display    : flex;
+  }
+
+  .nav__list {
+    column-gap    : 4rem;
+    flex-direction: row;
+  }
+
+  .nav__social {
+    margin: 0;
+  }
+
+  .home__container {
+    align-items          : center;
+    column-gap           : 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    height               : 100vh;
+  }
+
+  .home__data {
+    text-align: initial;
+  }
+
+  .home__stars {
+    justify-content: initial;
+  }
+
+  .home__button {
+    justify-self: flex-start;
+  }
+
+  .home__info {
+    align-items   : initial;
+    flex-direction: column;
+    margin        : 0;
+    row-gap       : 1.25rem;
+  }
+}
+
+@media screen and (min-width:1152px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .home__container {
+    grid-template-columns: repeat(3, 320px);
+    height               : initial;
+    justify-content      : space-between;
+    padding-block        : 11rem 4rem;
+  }
+
+  .home__data {
+    row-gap: 9.5rem;
+  }
+
+  .home__stars {
+    column-gap: .75rem;
+  }
+
+  .home__img {
+    width: 300px;
+  }
+
+  .home__info-img {
+    width: 150px;
+  }
+
+  .home__info-description {
+    font-size: var(--normal-font-size);
+  }
+
+  .home__info-content {
+    row-gap: 7.5rem;
+  }
+}
+
 
 /* For taller devices */
+
+@media screen and (min-width:1500px) and (min-height:1032px) {
+  .home__container {
+    align-items: center;
+    height     : 100vh;
+  }
+
+}
